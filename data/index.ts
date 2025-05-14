@@ -1,3 +1,5 @@
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const navItems = [
     // { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
@@ -14,7 +16,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: `${prefix}/b1.svg`,
       spareImg: "",
     },
     {
@@ -44,8 +46,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: `${prefix}/grid.svg`,
+      spareImg: `${prefix}/b4.svg`,
     },
   
     {
@@ -57,8 +59,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: `${prefix}/b5.svg`,
+      spareImg: `${prefix}/grid.svg`,
     },
     {
       id: 6,
@@ -78,7 +80,7 @@ export const navItems = [
       id: 1,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      img: `${prefix}/p4.svg`,
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://mashakrot.github.io/apple_website/",
     },
@@ -86,7 +88,7 @@ export const navItems = [
       id: 2,
       title: "Brainwave - AI Landing Page",
       des: "Modern and responsive AI startup landing page built with Next.js, Framer Motion, and TailwindCSS.",
-      img: "/p51.png",
+      img: `${prefix}/p51.png`,
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://mashakrot.github.io/brainwave/",
     },
@@ -94,7 +96,7 @@ export const navItems = [
     //   id: 3,
     //   title: "3D Solar System Planets to Explore",
     //   des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    //   img: "/p1.svg",
+    //   img: `${prefix}/p1.svg`,
     //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     //   link: "https://mashakrot.github.io/apple_website/",
     // },
@@ -102,7 +104,7 @@ export const navItems = [
     //   id: 4,
     //   title: "Yoom - Video Conferencing App",
     //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    //   img: "/p2.svg",
+    //   img: `${prefix}/p2.svg`,
     //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     //   link: "https://mashakrot.github.io/brainwave/",
     // },
@@ -145,32 +147,32 @@ export const navItems = [
     {
       id: 1,
       name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      img: `${prefix}/cloud.svg`,
+      nameImg: `${prefix}/cloudName.svg`,
     },
     {
       id: 2,
       name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      img: `${prefix}/app.svg`,
+      nameImg: `${prefix}/appName.svg`,
     },
     {
       id: 3,
       name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      img: `${prefix}/host.svg`,
+      nameImg: `${prefix}/hostName.svg`,
     },
     {
       id: 4,
       name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      img: `${prefix}/s.svg`,
+      nameImg: `${prefix}/streamName.svg`,
     },
     {
       id: 5,
       name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      img: `${prefix}/dock.svg`,
+      nameImg: `${prefix}/dockerName.svg`,
     },
   ];
   
@@ -180,21 +182,21 @@ export const navItems = [
       title: "Creative Front-End Developer",
       desc: "Developed interactive websites and UI animations using React, Tailwind CSS, and GSAP — showcasing modern front-end expertise.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: `${prefix}/exp1.svg`,
     },
     {
       id: 2,
       title: "Technical Payment Support – Shift4 Payments",
       desc: "Resolved 200+ monthly client issues in payment systems, ensuring 90% satisfaction and optimal terminal performance.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: `${prefix}/exp2.svg`,
     },
     {
       id: 3,
       title: "System Maintenance – JSC Softra",
       desc: "Diagnosed and fixed 50+ monthly faults in automated parking systems, enhancing reliability and cutting downtime by 20%.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp4.svg",
+      thumbnail: `${prefix}/exp4.svg`,
     },
     // {
     //   id: 4,
@@ -209,12 +211,12 @@ export const navItems = [
     {
       id: 1,
       link: "https://github.com/mashakrot",
-      img: "/git.svg",
+      img: `${prefix}/git.svg`,
     },
     {
       id: 2,
       link: "http://t.me/m_krot",
-      img: "/telegram.svg",
+      img: `${prefix}/telegram.svg`,
     },
     // {
     //   id: 2,
@@ -224,7 +226,7 @@ export const navItems = [
     {
       id: 3,
       link: "https://www.linkedin.com/in/marija-krotova-361970160/",
-      img: "/link.svg",
+      img: `${prefix}/link.svg`,
     },
   ];
   
