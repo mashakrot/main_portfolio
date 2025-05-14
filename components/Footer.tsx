@@ -4,11 +4,13 @@ import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+  const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
   return (
     <footer className="relative w-full pt-20 pb-20" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
-          src="/footer-grid.svg"
+          src={`${prefix}/footer-grid.svg`}
           alt="grid"
           className="w-full h-full opacity-50 "
         />

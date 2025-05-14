@@ -81,7 +81,7 @@ export const navItems = [
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: `${prefix}/p4.svg`,
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: [`${prefix}/next.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`, `${prefix}/three.svg`, `${prefix}/v.svg`],
       link: "https://mashakrot.github.io/apple_website/",
     },
     {
@@ -89,7 +89,7 @@ export const navItems = [
       title: "Brainwave - AI Landing Page",
       des: "Modern and responsive AI startup landing page built with Next.js, Framer Motion, and TailwindCSS.",
       img: `${prefix}/p51.png`,
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      iconLists: [`${prefix}/next.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`],
       link: "https://mashakrot.github.io/brainwave/",
     },
     // {
