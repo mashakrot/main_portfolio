@@ -2,7 +2,7 @@
   "name": "portfolio_try2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mashakrot.github.io/main_portfolio",
+  "homepage": "https://mashakrot.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

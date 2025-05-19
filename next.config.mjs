@@ -5,10 +5,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',
-  basePath: isProd ? '/main_portfolio' : '',
-  assetPrefix: isProd ? '/main_portfolio/' : '',
+  basePath: isProd ? '/portfolio' : '',
+  assetPrefix: isProd ? '/portfolio/' : '',
   env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? '/main_portfolio' : '',
+    NEXT_PUBLIC_BASE_PATH: isProd ? '/portfolio' : '',
   },
 };
 
