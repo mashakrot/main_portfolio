@@ -81,7 +81,7 @@ export const navItems = [
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: `${prefix}/p4.svg`,
-      iconLists: [`${prefix}/next.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`, `${prefix}/three.svg`, `${prefix}/v.svg`],
+      iconLists: [`${prefix}/next.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`, `${prefix}/three.svg`, `${prefix}/gsap.svg`],
       link: "https://mashakrot.github.io/apple_website/",
     },
     {
