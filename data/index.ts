@@ -74,14 +74,13 @@ export const gridItems = [
   },
 ];
 
-// TODO: adjust projects
 export const projects = [
   {
     id: 1,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: `${prefix}/p4.svg`,
-    iconLists: [`${prefix}/react.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`, `${prefix}/three.svg`, `${prefix}/gsap.svg`],
+    iconLists: [`${prefix}/react.svg`, `${prefix}/tail.svg`, `${prefix}/js.svg`, `${prefix}/three.svg`, `${prefix}/gsap.svg`],
     link: "https://mashakrot.github.io/apple_website/",
   },
   {
