@@ -81,7 +81,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: `${prefix}/p4.svg`,
     iconLists: [`${prefix}/react.svg`, `${prefix}/tail.svg`, `${prefix}/js.svg`, `${prefix}/three.svg`, `${prefix}/gsap.svg`],
-    link: "https://mashakrot.github.io/apple_website/",
+    link: "/apple_website/",
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ export const projects = [
     des: "A scroll-driven cityscape built with plain HTML, CSS, and JavaScript, powered by GSAP and its ScrollTrigger plugin.",
     img: `${prefix}/p8.png`,
     iconLists: [`${prefix}/js.svg`, `${prefix}/gsap.svg`],
-    link: "https://mashakrot.github.io/gsap_city_animation/",
+    link: "/gsap_city_animation/",
   },
   {
     id: 4,
@@ -105,7 +105,7 @@ export const projects = [
     des: "An interactive 3D butterfly animation built using Three.js, GSAP and JavaScript. It features a .glb 3D model, creating a visually engaging experience.​",
     img: `${prefix}/p10.png`,
     iconLists: [`${prefix}/js.svg`, `${prefix}/three.svg`, `${prefix}/gsap.svg`],
-    link: "https://mashakrot.github.io/3D_butterfly_animation/",
+    link: "/3D_butterfly_animation/",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ export const projects = [
     img: `${prefix}/p6.png`,
     iconLists: [],
     // iconLists: [`${prefix}/css.svg`, `${prefix}/html.svg`],
-    link: "https://mashakrot.github.io/3D_image_slider/",
+    link: "/3D_image_slider/",
   },
   {
     id: 4,
@@ -123,7 +123,7 @@ export const projects = [
     img: `${prefix}/p7.png`,
     iconLists: [],
     // iconLists: [`${prefix}/js.svg`, `${prefix}/css.svg`, `${prefix}/html.svg`],
-    link: "https://mashakrot.github.io/parallax_3d_lens_effect/",
+    link: "/parallax_3d_lens_effect/",
   },
   {
     id: 6,
@@ -132,7 +132,7 @@ export const projects = [
     img: `${prefix}/p9.png`,
     iconLists: [],
     // iconLists: [`${prefix}/js.svg`, `${prefix}/css.svg`, `${prefix}/html.svg`],
-    link: "https://mashakrot.github.io/parallax_3d_scroll_effect/",
+    link: "/parallax_3d_scroll_effect/",
   },
   {
     id: 8,
@@ -141,7 +141,7 @@ export const projects = [
     img: `${prefix}/p11.png`,
     // iconLists: [`${prefix}/css.svg`, `${prefix}/html.svg`],
     iconLists: [],
-    link: "https://mashakrot.github.io/3D_rotation_effect/",
+    link: "/3D_rotation_effect/",
   },
   {
     id: 9,
@@ -150,7 +150,7 @@ export const projects = [
     img: `${prefix}/p12.png`,
     // iconLists: [`${prefix}/css.svg`, `${prefix}/html.svg`],
     iconLists: [],
-    link: "https://mashakrot.github.io/3d_cube/",
+    link: "/3d_cube/",
   },
   {
     id: 10,
