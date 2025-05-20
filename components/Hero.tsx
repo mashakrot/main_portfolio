@@ -42,7 +42,7 @@ const Hero = () => {
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;m Marija, a React Developer based in Finland.</p>
                     {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;m Marija, a React and Next.js Developer based in Finland.</p> */}
 
-                    <a href="#about">
+                    <a href="#projects">
                         <MagicButton 
                         title="Show my work" 
                         icon={<FaLocationArrow />}
