@@ -25,7 +25,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        {/* TODO: ever give option  */}
+        {/* TODO: ever give option or leave email */}
         <a href="mailto:Marija.Krotova.dev@gmail.com">
         {/* <a href="http://t.me/m_krot" target={"_blank"}rel="noopener noreferrer"> */}
           <MagicButton

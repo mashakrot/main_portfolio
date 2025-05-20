@@ -74,6 +74,8 @@ export const gridItems = [
   },
 ];
 
+// TODO: change tooltips from links to projects names 
+// TODO: add year maybe 
 export const projects = [
   {
     id: 1,
