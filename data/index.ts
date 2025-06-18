@@ -76,6 +76,9 @@ export const gridItems = [
 
 // TODO: change tooltips from links to projects names 
 // TODO: add year maybe 
+
+
+// TODO: add tooltips for icons maaaaybe
 export const projects = [
   {
     id: 1,
@@ -95,6 +98,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "YC Directory – Startup Pitch Platform",
+    des: "A modern platform built with Next.js 15 and React 19 for entrepreneurs to pitch, browse, and explore startup ideas. Features include GitHub login, live content API, pitch submissions, search, and Editor Picks — all in a clean minimal UI.",
+    img: `${prefix}/p15.png`,
+    iconLists: [`${prefix}/react.svg`, `${prefix}/next.svg`, `${prefix}/shad.svg`, `${prefix}/sanity.svg`, `${prefix}/tail.svg`, `${prefix}/ts.svg`],
+    link: "https://startupsdirectory.vercel.app/",
+  },
+  {
+    id: 4,
     title: "GSAP City Animation",
     des: "A scroll-driven cityscape built with plain HTML, CSS, and JavaScript, powered by GSAP and its ScrollTrigger plugin.",
     img: `${prefix}/p8.png`,
@@ -102,7 +113,7 @@ export const projects = [
     link: "/gsap_city_animation/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Interactive 3D Butterfly Animation",
     des: "An interactive 3D butterfly animation built using Three.js, GSAP and JavaScript. It features a .glb 3D model, creating a visually engaging experience.​",
     img: `${prefix}/p10.png`,
@@ -110,7 +121,7 @@ export const projects = [
     link: "/3D_butterfly_animation/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Animated 3D Image Slider",
     des: "Stunning 3D image slider with 3-dimensional auto-rotations — using pure CSS.",
     img: `${prefix}/p6.png`,
@@ -119,7 +130,7 @@ export const projects = [
     link: "/3D_image_slider/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Interactive 3D Parallax Header",
     des: "Stunning interactive 3D parallax lens effect with Glassmorphism popup — using CSS & JS.",
     img: `${prefix}/p7.png`,
@@ -128,7 +139,7 @@ export const projects = [
     link: "/parallax_3d_lens_effect/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Interactive 3D Parallax Header",
     des: "Stunning interactive 3D parallax scroll effect — using CSS & JS.",
     img: `${prefix}/p9.png`,
@@ -137,7 +148,7 @@ export const projects = [
     link: "/parallax_3d_scroll_effect/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Animated 3D Image Slider",
     des: "Stunning 3D product viewer demonstrates smooth three-dimensional space.",
     img: `${prefix}/p11.png`,
@@ -146,7 +157,7 @@ export const projects = [
     link: "/3D_rotation_effect/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Animated 3D Cube Product Viewer",
     des: "3D product viewer with interactive controls, glass effects, and auto-rotations — using pure CSS.",
     img: `${prefix}/p12.png`,
@@ -155,7 +166,7 @@ export const projects = [
     link: "/3d_cube/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Cat Energy - proper cat nutrition",
     des: "A site to browse and book escape room games with a date and time picker and live availability checks.",
     img: `${prefix}/p13.png`,
@@ -164,7 +175,7 @@ export const projects = [
     link: "https://mashakrot.github.io/cat-energy-public/build/index.html",
   },
   {
-    id: 11,
+    id: 12,
     title: "Escape Room - booking quest rooms",
     des: "A fun one‑page site about cat nutrition, with scroll-triggered reveals and smooth entry animations.",
     img: `${prefix}/p14.png`,

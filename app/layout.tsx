@@ -11,7 +11,11 @@ export const metadata: Metadata = {
   description: "Modern & Minimal JS Mastery Portfolio",
 };
 
+// TODO: adjust load speed...
 // TODO: add theme switch https://ui.shadcn.com/docs/dark-mode/next 
+
+// A dashboard had charts and data that caused the UI to freeze. I fixed it by using useMemo, useCallback, and breaking components into smaller ones. I also used loading skeletons to improve the user experience while data was loading.
+
 
 export default function RootLayout({
   children,
